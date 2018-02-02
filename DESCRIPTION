@@ -1,0 +1,13 @@
+Package: biogeochemthemes
+Type: Package
+Title: Biogeochem Lab Themes for ‘ggplot2’
+Version: 0.1.0
+Author: Jason Venkiteswaran
+Maintainer: Jason Venkiteswaran <jason.venkiteswaran@gmail.com>
+Description: This package holds the 'ggplot2' themes from members of the biogeochem lab.
+    Eventually the package will contain scales and utilities to make it easier for the
+    lab to produce high quality figures.
+URL: https://github.com/biogeochem/biogeochemthemes    
+License: MIT
+Encoding: UTF-8
+LazyData: true
