@@ -10,6 +10,7 @@ The themes:
 ### Installation
 
 ``` r
+library(devtools)
 devtools::install_github("biogeochem/biogeochemthemes")
 ```
 
