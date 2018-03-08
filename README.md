@@ -6,6 +6,7 @@ The themes:
 
   - `theme_jason`: Jason's theme
   - `theme_kateri`: Kateri's theme
+  - `theme_megan`: Megan's theme
 
 ### Installation
 
@@ -43,4 +44,15 @@ ggplot(mtcars, aes(y=mpg, x=disp, colour=factor(cyl))) +
        subtitle="A witty subtitle goes here",
        caption="Brought to you by the letters 'MSU'") + 
   theme_kateri()
+```
+### Megan's theme
+
+``` r
+ggplot(mtcars, aes(y=mpg, x=disp, colour=factor(cyl))) +
+  geom_point() +
+  labs(x="Fuel effiiency (mpg)", y="Weight (tons)", color = "Cylinders",
+       title="Megan's ggplot2 scatterplot example",
+       subtitle="A witty subtitle goes here",
+       caption="Brought to you by extra coffee") + 
+  theme_megan()
 ```
