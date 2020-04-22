@@ -5,9 +5,9 @@
 \alias{jason_theme}
 \title{Jason's ggplot2 theme}
 \usage{
-theme_jason(base_size = 12, base_family = "", ...)
+theme_jason(base_size = 14, base_family = "", ...)
 
-jason_theme(base_size = 12, base_family = "", ...)
+jason_theme(base_size = 14, base_family = "", ...)
 }
 \arguments{
 \item{base_size}{Base font size}
