@@ -5,9 +5,9 @@
 \alias{megan_theme}
 \title{Megan's ggplot2 theme}
 \usage{
-theme_megan(base_size = 11, base_family = "")
+theme_megan(base_size = 11, base_family = "", ...)
 
-megan_theme(base_size = 11, base_family = "")
+megan_theme(base_size = 11, base_family = "", ...)
 }
 \arguments{
 \item{base_size}{Base font size}

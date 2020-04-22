@@ -12,7 +12,7 @@
 #' @examples
 #' library(ggplot2)
 #' ggplot(mtcars, aes(y=mpg, x=disp, colour=factor(cyl))) +
-#'     geom_point() + theme_Kateri()
+#'     geom_point() + theme_kateri()
 #'
 #' @seealso \code{\link[ggplot2]{theme}}
 #'
@@ -35,6 +35,6 @@ theme_kateri <-
     )
   }
 
-#' @rdname theme_Kateri
+#' @rdname theme_kateri
 #' @export
 kateri_theme <- theme_kateri

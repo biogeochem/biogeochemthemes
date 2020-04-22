@@ -2,9 +2,12 @@
 % Please edit documentation in R/theme_kateri.R
 \name{theme_kateri}
 \alias{theme_kateri}
+\alias{kateri_theme}
 \title{Kateri's ggplot2 theme}
 \usage{
 theme_kateri(base_size = 16, base_family = "", ...)
+
+kateri_theme(base_size = 16, base_family = "", ...)
 }
 \arguments{
 \item{base_size}{Base font size}
@@ -22,7 +25,7 @@ Kateri's ggplot2 theme: black border, no ticks, no grid lines.
 \examples{
 library(ggplot2)
 ggplot(mtcars, aes(y=mpg, x=disp, colour=factor(cyl))) +
-    geom_point() + theme_Kateri()
+    geom_point() + theme_kateri()
 
 }
 \seealso{

@@ -17,7 +17,7 @@
 #' @seealso \code{\link[ggplot2]{theme}}
 #'
 #' @export
-theme_megan <- function (base_size = 11, base_family = "") {
+theme_megan <- function (base_size = 11, base_family = "", ...) {
   theme_grey(base_size = base_size, base_family = base_family) %+replace% 
     theme(axis.ticks = element_line(colour = "black", size = 1), 
           legend.key = element_rect(colour = "grey80"), 
@@ -32,7 +32,8 @@ theme_megan <- function (base_size = 11, base_family = "") {
           axis.title.y = element_text(margin = unit(c(0, 3, 0, 0), "mm"),size=rel(1.1), angle = 90),
           strip.text = element_text(size = rel(1.05), colour = "black"), #face = "normal"
           strip.background = element_blank(),
-          plot.margin=unit(c(10,10,10,10),"pt")
+          plot.margin=unit(c(10,10,10,10),"pt"),
+          ...
     )
 }
 
