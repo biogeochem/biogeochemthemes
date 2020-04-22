@@ -1,6 +1,8 @@
-biogeochemthemes readme
-================
-Jason Venkiteswaran
+---
+title: "biogeochemthemes readme"
+author: "Jason Venkiteswaran"
+output: github_document
+---
 
 # `biogeochemthemes` : Biogeochem Lab Themes for `ggplot2`
 
@@ -13,14 +15,14 @@ devtools::install_github("biogeochem/biogeochemthemes")
 
 ## Usage
 
-``` r
+``` {r, echo=TRUE, results='hide'}
 library(biogeochemthemes)
 library(ggplot2)
 ```
 
-## Jason’s theme
+## Jason's theme
 
-``` r
+``` {r, jason-example}
 ggplot(mtcars, aes(y=mpg, x=disp, colour=factor(cyl))) +
   geom_point() +
   labs(x="Fuel effiiency (mpg)", y="Weight (tons)", colour = "Cylinders",
@@ -30,11 +32,9 @@ ggplot(mtcars, aes(y=mpg, x=disp, colour=factor(cyl))) +
   theme_jason()
 ```
 
-![](README_files/figure-gfm/jason-example-1.png)<!-- -->
+## Kateri's theme
 
-## Kateri’s theme
-
-``` r
+``` {r, kateri-example}
 ggplot(mtcars, aes(y=mpg, x=disp, colour=factor(cyl))) +
   geom_point() +
   labs(x="Fuel effiiency (mpg)", y="Weight (tons)", color = "Cylinders",
@@ -44,11 +44,9 @@ ggplot(mtcars, aes(y=mpg, x=disp, colour=factor(cyl))) +
   theme_kateri()
 ```
 
-![](README_files/figure-gfm/kateri-example-1.png)<!-- -->
+## Megan's theme
 
-## Megan’s theme
-
-``` r
+``` {r, megan-example}
 ggplot(mtcars, aes(y=mpg, x=disp, colour=factor(cyl))) +
   geom_point() +
   labs(x="Fuel effiiency (mpg)", y="Weight (tons)", color = "Cylinders",
@@ -57,5 +55,3 @@ ggplot(mtcars, aes(y=mpg, x=disp, colour=factor(cyl))) +
        caption="Brought to you by extra coffee") + 
   theme_megan()
 ```
-
-![](README_files/figure-gfm/megan-example-1.png)<!-- -->
